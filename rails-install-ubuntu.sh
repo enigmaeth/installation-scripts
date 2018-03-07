@@ -9,8 +9,6 @@ fi
 
 set -e
 
-curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-
 echo "Updates packages. Asks for your password."
 sudo apt-get update -y
 
